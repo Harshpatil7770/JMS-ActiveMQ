@@ -1,0 +1,22 @@
+package com.xoriant.TopicOneTOMany;
+
+import javax.jms.Connection;
+import javax.jms.ConnectionFactory;
+import javax.jms.JMSException;
+
+import org.apache.activemq.ActiveMQConnectionFactory;
+
+public class Sender {
+
+	public static void main(String[] args) {
+		ConnectionFactory connectionFactory = new ActiveMQConnectionFactory("admin", "admin", "tsp://localhost:61616");
+		Connection connection;
+		try {
+			connection = connectionFactory.createConnection();
+			connection.setClientID("1");
+			connection.start();
+		} catch (JMSException e) {
+			e.printStackTrace();
+		}
+	}
+}

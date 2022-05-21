@@ -1,0 +1,5 @@
+package com.xoriant.jms.consumer;
+
+public class ConsumerController {
+
+}

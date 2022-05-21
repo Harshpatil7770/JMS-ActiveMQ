@@ -1,0 +1,5 @@
+package com.xoriant.sender.JSONPublisher;
+
+public class Sender {
+
+}

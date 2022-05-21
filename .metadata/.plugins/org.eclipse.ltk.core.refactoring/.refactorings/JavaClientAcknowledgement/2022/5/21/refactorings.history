@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;JavaClientAcknowledgement&apos;&#x0D;&#x0A;- Original project: &apos;JavaClientAcknowledgement&apos;&#x0D;&#x0A;- Original element: &apos;JavaClientAcknowledgement/src/test/java/com.xoriant.jms&apos;" description="Delete element" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.xoriant.jms" element2="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.xoriant" element3="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1653028555360" subPackages="false" version="1.0"/>
+</session>

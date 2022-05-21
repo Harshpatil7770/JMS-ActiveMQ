@@ -1,0 +1,13 @@
+package com.xoriant.jms;
+
+/**
+ * Hello world!
+ *
+ */
+public class Sender 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

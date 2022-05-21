@@ -1,0 +1,17 @@
+package com.xoriant.jms.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RequestMapping("/api/sender")
+@RestController
+public class SenderController {
+
+	@Autowired
+	JmsTemplate jmsTemplte;
+
+	@GetMapping("/send/{message}")
+	public void sendMessage()
+}

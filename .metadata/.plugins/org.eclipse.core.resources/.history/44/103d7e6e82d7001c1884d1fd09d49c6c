@@ -1,0 +1,5 @@
+package com.xoriant.delivery.queue;
+
+public class Publisher {
+
+}

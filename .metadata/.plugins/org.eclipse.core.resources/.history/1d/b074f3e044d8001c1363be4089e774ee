@@ -1,0 +1,5 @@
+package com.java.jms;
+
+public class JMSConfig {
+
+}
